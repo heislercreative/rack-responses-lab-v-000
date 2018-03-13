@@ -3,7 +3,9 @@ class Application
   def call(env)
     resp = Rack::Response.new
     
-    if Time.now 
+    time = Time.now
+    
+    if time. 
     
     resp.finish
   end
